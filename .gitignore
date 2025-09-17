@@ -45,5 +45,7 @@ venv.bak/
 # Archive files (optional - remove if you want to include them)
 *.zip
 
-# Model files (optional - remove if you want to include the trained model)
+# Model files
+# Ignore pickle by default, but keep the trained model needed for deployment
 *.pkl
+!rf_model.pkl
